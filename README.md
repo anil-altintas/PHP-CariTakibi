@@ -56,7 +56,8 @@ Modern ve kullanıcı dostu arayüzü ile işletmenizin cari hesap takibini kola
 1. Dosyaları web sunucunuza yükleyin
 2. `database/schema.sql` dosyasını veritabanınıza import edin
 3. `config/database.php` dosyasında veritabanı bağlantı bilgilerinizi güncelleyin
-4. Varsayılan giriş bilgileri:
+4. database/trigger.sql dosyasını da veritabanında çalıştırmanız gerekmektedir
+5. Varsayılan giriş bilgileri:
    - Kullanıcı adı: admin
    - Şifre: admin123
 
