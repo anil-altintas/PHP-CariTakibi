@@ -1,0 +1,41 @@
+# Composer
+/vendor/
+composer.lock
+composer.phar
+
+# IDE ve Editör Dosyaları
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Sistem Dosyaları
+.DS_Store
+Thumbs.db
+
+# Çevre Değişkenleri
+.env
+.env.*
+!.env.example
+
+# Geçici Dosyalar
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Derleme Çıktıları
+/dist/
+/build/
+/out/
+
+# Diğer
+/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Özel dosyalar ve dizinler
+config/db.php 
